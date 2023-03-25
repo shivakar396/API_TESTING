@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-25T11:59:32 IST" name="Default suite" finished-at="2023-03-25T11:59:38 IST" duration-ms="6102">
+    <groups>
+    </groups>
+    <test started-at="2023-03-25T11:59:32 IST" name="Default test" finished-at="2023-03-25T11:59:38 IST" duration-ms="6102">
+      <class name="xuriti.TC_0008_UploadExcelInvoice">
+        <test-method signature="TM0001testuploadExcelInvoice()[pri:1, instance:xuriti.TC_0008_UploadExcelInvoice@49912c99]" started-at="2023-03-25T11:59:32 IST" name="TM0001testuploadExcelInvoice" finished-at="2023-03-25T11:59:38 IST" duration-ms="6036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TM0001testuploadExcelInvoice -->
+      </class> <!-- xuriti.TC_0008_UploadExcelInvoice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
