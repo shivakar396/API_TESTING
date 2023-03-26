@@ -32,15 +32,16 @@ public class TC_0008_UploadExcelInvoice {
 		String usrid=fl.getPropertyData("UserID");
 		String numbr=fl.getPropertyData("num");
 		int number=Integer.parseInt(numbr);
-		//System.out.println(number);
+		System.out.println(number);
 		fl.setPropertyData("num", ""+(number+1));
-		String invc="LNV00000"+number;
+		String invc="L0NV0000"+number;
 		fl.setExcelPropertyData(1, 0,invc);
 		
 		Calendar cal = Calendar.getInstance();
         SimpleDateFormat format1 = new SimpleDateFormat("yyyy/MM/dd");
         String formatted = format1.format(cal.getTime());
         //System.out.println(formatted);
+        
         fl.setExcelPropertyData(1, 8,formatted);
         
 		File file=new File("./src/test/resources/data/DevInvoice1.xls");

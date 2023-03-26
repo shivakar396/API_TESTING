@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="xuriti.TC_0006_NBFC_BuyerMapping">
+      <class name="xuriti.DateConvert">
         <methods>
-          <include name="TM0002testNBFC_BuyerAndSellerMapping"/>
+          <include name="convertDate"/>
         </methods>
-      </class> <!-- xuriti.TC_0006_NBFC_BuyerMapping -->
+      </class> <!-- xuriti.DateConvert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
